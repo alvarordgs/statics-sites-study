@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* { /* style reset */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 300px;
+    margin: 10px auto;
+    background: black;
+    position: relative;
+}
+
+.logo-site {
+    margin-left: 50px;
+}
+
+.logo-site img {
+    width: 250px;
+}
+
+.style-nav {
+    position: absolute;
+    right: 0;
+    width: 450px;
+    height: 100px;
+    background: rgba(78, 78, 78, 0.5);
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    top: 30px;
+    right: 50px;
+    position: absolute;
+}
+
+.icons i {
+    border-color: white;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+#img-cont-1 {
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+
+#img-cont-2 {
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+
+#img-cont-3 {
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1611048268330-53de574cae3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+}
+
+#img-cont-4 {
+    background: no-repeat center/cover url(https://images.unsplash.com/photo-1582913130063-8318329a94a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+}
+
+.img-container .img-txt {
+    position: absolute;
+    top: 38%;
+    left: 32%;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.img-txt .borda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 90px;
+    border: solid 1px black;
+}
+
+.img-txt p {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background: #e2e2e2;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts .tel {
+    margin-bottom: 15px;
+
+}
+
+.contacts .local {
+    margin-bottom: 30px;
+}
+
+.contacts .copy {
+    font-weight: bold;
+}
+
+.email h4 {
+    margin-bottom: 10px;
+}
+
+.email input {
+    width: 200px;
+    height: 30px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.email button {
+    width: 40px;
+    height: 30px;
+    border: solid 1px;
+    font-weight: bold;
+
+    color: white;
+    background: rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+.email button:hover {
+    font-weight: bold;
+    background: white;
+    color: black;
+}
+
+.partners h4 {
+    margin-bottom: 10px;
+}
+
+.partners-logo {
+    display: flex;
+    align-items: center;
+}
+
+.partners-logo img {
+    height: 30px;
+    margin-right: 15px;
+} 
+
+
